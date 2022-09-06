@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import SearchBox from "../src/components/searchBox/searchBox.component";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -15,6 +16,9 @@ const Home: NextPage = () => {
         >
           Deel Challengue
         </h1>
+        <div className="h-screen flex justify-center items-center">
+          <SearchBox />
+        </div>
       </main>
       <footer>
         <div className="absolute right-5 bottom-2">
