@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             transform: "translate(-50%, 0)",
           }}
         >
-          Deel Challengue
+          Deel Challenge
         </h1>
         <div className="h-screen flex justify-center items-center">
           <SearchBox />

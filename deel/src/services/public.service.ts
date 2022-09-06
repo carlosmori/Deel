@@ -7,7 +7,7 @@ export const getMatchedCountries = (searchTerm: string) => {
   // type this
   return {
     call: axios.get<Country[]>(
-      `http://localhost:3002/api/countries/${searchTerm}`,
+      `http://localhost:3000/api/countries/${searchTerm}`,
       {
         signal: controller.signal,
       }
