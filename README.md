@@ -27,9 +27,3 @@ The api calls are debounced to reduce the amount of api calls made, this is a go
 
 The project layout was developed using atomic css, [Tailwinds CSS](https://https://tailwindcss.com/).
 
-### Missing Features
-I couldnt deploy the project, I can do it using vercel I need more time.
-
-No unit testing was added , I can do it with more time.
-
-The API is not the best, wanted to focus on the frontend part.
